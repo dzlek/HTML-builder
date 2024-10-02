@@ -41,25 +41,3 @@ fs.readdir(
     }
   },
 );
-
-// fs.readFile(
-//   path.join(__dirname, 'styles', 'style.txt'),
-//   'utf-8',
-//   (err, data) => {
-//     if (err) throw err;
-//     console.log(data);
-//   },
-// );
-
-//   fs.stat(filePath, (err, stats) => {
-//     if (err) {
-//       console.log(err);
-//     } else {
-//       console.log(
-//         `${file.name.split('.')[0]} - ${fileExt.slice(
-//           1,
-//         )} - ${Math.round(stats.size / 1024)}kb`,
-//       );
-//     }
-//   }
-// );
